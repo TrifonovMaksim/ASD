@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\obj\Debug\Linked_List.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\obj\Debug\Linked_List.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\bin\Debug\Linked_List.exe.config
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\bin\Debug\Linked_List.exe
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\bin\Debug\Linked_List.pdb
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\obj\Debug\Linked_List.exe
+C:\Users\fox_f\source\repos\Linked_List\Linked_List\obj\Debug\Linked_List.pdb

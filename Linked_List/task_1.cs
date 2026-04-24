@@ -44,7 +44,7 @@ namespace AlgorithmsDataStructures
 
         public List<Node> FindAll(int _value)
         {
-            
+
             List<Node> nodes = new List<Node>();
             if (head == null) return nodes;
             Node node = head;
@@ -61,25 +61,25 @@ namespace AlgorithmsDataStructures
             if (head == null) return false;
             Node node = head;
             if (node.value == _value)
-            {       
+            {
                 if (node.next == null)
                 {
                     tail = null;
                 }
-                    head = head.next;
-                    return true;                        
+                head = head.next;
+                return true;
             }
-                
-                while (node.next != null)
+
+            while (node.next != null)
             {
-                if (node.next.value == _value) 
+                if (node.next.value == _value)
                 {
                     if (node.next.next == null) tail = node;
                     node.next = node.next.next;
-                    return true; 
-                } 
+                    return true;
+                }
                 node = node.next;
-                    
+
             }
 
             return false;
@@ -87,9 +87,9 @@ namespace AlgorithmsDataStructures
 
         public void RemoveAll(int _value)
         {
-            if (head == null) return;           
+            if (head == null) return;
             while (head != null && head.value == _value)
-            {   
+            {
                 head = head.next;
             }
             if (head == null)
@@ -136,7 +136,7 @@ namespace AlgorithmsDataStructures
             if (_nodeToInsert == null) return;
             if (_nodeAfter == null)
             {
-                AddInTail(_nodeToInsert); 
+                AddInTail(_nodeToInsert);
                 return;
             }
             if (_nodeAfter == tail)
@@ -145,8 +145,7 @@ namespace AlgorithmsDataStructures
                 tail = _nodeToInsert;
                 return;
             }
-            if (_nodeAfter == tail)
-             _nodeToInsert.next = _nodeAfter.next;   
+            _nodeToInsert.next = _nodeAfter.next;
             _nodeAfter.next = _nodeToInsert;
         }
 
