@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\obj\Debug\Two_way_LinkedList.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\obj\Debug\Two_way_LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\bin\Debug\Two_way_LinkedList.exe.config
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\bin\Debug\Two_way_LinkedList.exe
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\bin\Debug\Two_way_LinkedList.pdb
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\obj\Debug\Two_way_LinkedList.exe
+C:\Users\fox_f\source\repos\Two_way_LinkedList\Two_way_LinkedList\obj\Debug\Two_way_LinkedList.pdb
