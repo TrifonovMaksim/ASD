@@ -68,8 +68,9 @@ namespace AlgorithmsDataStructures
                 array[i] = array[i + 1];
             }
             count -= 1;
-            if ((int)(capacity / 1.5) > count && capacity > 16) MakeArray((int)(capacity / 1.5) > 16? (int)(capacity / 1.5) : 16);
+            if ((int)(capacity / 2) > count && capacity > 16) MakeArray((int)(capacity / 1.5) > 16? (int)(capacity / 1.5) : 16);
         }
 
     }
 }
+

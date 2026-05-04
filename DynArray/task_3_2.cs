@@ -84,7 +84,7 @@ namespace AlgorithmsDataStructures
                 balance += 3;
             }
             count -= 1;
-            if ((int)(capacity / 1.5) > count && capacity > 16)
+            if ((int)(capacity / 2) > count && capacity > 16)
             {
                 int new_capacity = ((int)(capacity / 1.5) > 16 ? (int)(capacity / 1.5) : 16);
                 if (balance < Cost(new_capacity)) throw new Exception("Кончился баланс");
