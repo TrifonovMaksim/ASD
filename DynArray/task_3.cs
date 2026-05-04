@@ -51,7 +51,7 @@ namespace AlgorithmsDataStructures
         {
             if (index < 0 || index > count) throw new IndexOutOfRangeException("Некорректный индекс");
             int new_count = count + 1;
-            if (new_count >= capacity) MakeArray(capacity * 2);
+            if (new_count > capacity) MakeArray(capacity * 2);
             for (int i = count - 1; i >= index; i--)
             {
                 array[i + 1] = array[i];

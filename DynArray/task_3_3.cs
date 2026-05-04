@@ -38,7 +38,7 @@ namespace AlgorithmsDataStructures
             test.Append(5);
             int capacity_prev = test.capacity;
             test.Insert(10, 1);
-            Console.WriteLine(capacity_prev != test.capacity ? "Тест Test_Insert2 пройден" : "Тест Test_Insert2 не пройден");
+            Console.WriteLine(capacity_prev == test.capacity ? "Тест Test_Insert2 пройден" : "Тест Test_Insert2 не пройден");
         }
 
         static void Test_Insert3()
@@ -185,7 +185,7 @@ namespace AlgorithmsDataStructures
             test.Append(5);
             int capacity_prev = test.capacity;
             test.Insert(10, 1);
-            Console.WriteLine(capacity_prev != test.capacity ? "Тест Bank_Test_Insert2 пройден" : "Тест Bank_Test_Insert2 не пройден");
+            Console.WriteLine(capacity_prev == test.capacity ? "Тест Bank_Test_Insert2 пройден" : "Тест Bank_Test_Insert2 не пройден");
         }
 
         static void Bank_Test_Insert3()

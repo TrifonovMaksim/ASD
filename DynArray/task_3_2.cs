@@ -57,7 +57,7 @@ namespace AlgorithmsDataStructures
             bool is_alocated = false;
             if (index < 0 || index > count) throw new IndexOutOfRangeException("Некорректный индекс");
             int new_count = count + 1;
-            if (new_count >= capacity)
+            if (new_count > capacity)
             {
                 int new_capacity = capacity * 2;
                 if (balance < Cost(new_capacity)) throw new Exception("Кончился баланс");
