@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BD4514D-C0EA-4645-8586-65C5146C1FEB}</ProjectGuid>
+    <ProjectGuid>{B36E7071-B258-486D-82A1-650FE3A594E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Queue</RootNamespace>
-    <AssemblyName>Queue</AssemblyName>
+    <RootNamespace>Deque</RootNamespace>
+    <AssemblyName>Deque</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="task5.cs" />
+    <Compile Include="task6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="task5_2.cs" />
-    <Compile Include="task5_3.cs" />
+    <Compile Include="task6_2.cs" />
+    <Compile Include="task6_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
