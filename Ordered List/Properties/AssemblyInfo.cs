@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Linked_List")]
+[assembly: AssemblyTitle("Ordered List")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Linked_List")]
+[assembly: AssemblyProduct("Ordered List")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("ba2e9321-3285-451b-acaa-9afd4f86d00e")]
+[assembly: Guid("71a0cd46-44ea-46d3-a37f-3f6a52e8b099")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

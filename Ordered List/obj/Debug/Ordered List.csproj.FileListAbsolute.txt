@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\bin\Debug\Ordered List.exe.config
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\bin\Debug\Ordered List.exe
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\bin\Debug\Ordered List.pdb
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\obj\Debug\Ordered List.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\obj\Debug\Ordered List.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\obj\Debug\Ordered List.exe
+C:\Users\fox_f\source\repos\Ordered List\Ordered List\obj\Debug\Ordered List.pdb
