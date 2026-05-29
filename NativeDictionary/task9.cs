@@ -17,26 +17,24 @@ namespace AlgorithmsDataStructures
             values = new T[size];
         }
 
-        public int HashFun(string key, int i)
+        public int HashFun(string key)
         {
             // всегда возвращает корректный индекс слота
-            if (key == null) throw new Exception("Неверное занчение ключа");
             int res = 0;
             foreach (var item in key)
             {
-                res += (int)item;
+                res += item;
             }
-            int h1 = res % size;
-            int h2 = 1 + (res % (size - 1));
-            return (h1 + i * h2) % size;
+            return res % size;
         }
         public int SeekSlot(string key)
         {
             // находит индекс пустого слота для значения
+            int idx = HashFun(key);
             for (int i = 0; i < size; i++)
             {
-                int idx = HashFun(key, i);
                 if (slots[idx] == null) return idx;
+                idx = (idx + 1) % size;
             }
             return -1;
         }
@@ -44,10 +42,11 @@ namespace AlgorithmsDataStructures
         private int FindKeyIndex(string key)
         {
             // находит индекс ключа
+            int idx = HashFun(key);
             for (int i = 0; i < size; i++)
             {
-                int idx = HashFun(key, i);
                 if (slots[idx] == key) return idx;
+                idx = (idx + 1) % size;
             }
             return -1;
         }
