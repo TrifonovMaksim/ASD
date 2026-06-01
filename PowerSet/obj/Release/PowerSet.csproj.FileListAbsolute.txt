@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\bin\Release\PowerSet.exe.config
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\bin\Release\PowerSet.exe
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\bin\Release\PowerSet.pdb
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\obj\Release\PowerSet.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\obj\Release\PowerSet.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\obj\Release\PowerSet.exe
+C:\Users\fox_f\source\repos\PowerSet\PowerSet\obj\Release\PowerSet.pdb
