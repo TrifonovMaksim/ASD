@@ -30,11 +30,6 @@ namespace AlgorithmsDataStructures
         public void Put(T value)
         {
             // всегда срабатывает
-            if (count == size)
-            {
-                Console.WriteLine("Множество заполненно");
-                return;
-            }
             int idx = SeekSlot(value);
             if (idx == -1) return;
             slots[idx] = value;
