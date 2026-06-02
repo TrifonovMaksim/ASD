@@ -16,7 +16,7 @@ namespace AlgorithmsDataStructures
         public PowerSet()
         {
             // ваша реализация хранилища
-            size = 20000;
+            size = 20011;
             slots = new T[size];
             is_deleted = new bool[size];
         }
