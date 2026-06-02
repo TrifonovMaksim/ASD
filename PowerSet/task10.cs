@@ -38,6 +38,7 @@ namespace AlgorithmsDataStructures
             int idx = SeekSlot(value);
             if (idx == -1) return;
             slots[idx] = value;
+            is_deleted[idx] = false;
             count++;
         }
 
