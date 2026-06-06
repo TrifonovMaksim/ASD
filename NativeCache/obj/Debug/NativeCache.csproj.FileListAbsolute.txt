@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\obj\Debug\NativeCache.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\obj\Debug\NativeCache.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\bin\Debug\NativeCache.exe.config
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\bin\Debug\NativeCache.exe
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\bin\Debug\NativeCache.pdb
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\obj\Debug\NativeCache.exe
+C:\Users\fox_f\source\repos\NativeCache\NativeCache\obj\Debug\NativeCache.pdb
