@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\bin\Debug\SImpleTree.exe.config
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\bin\Debug\SImpleTree.exe
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\bin\Debug\SImpleTree.pdb
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\obj\Debug\SImpleTree.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\obj\Debug\SImpleTree.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\obj\Debug\SImpleTree.exe
+C:\Users\fox_f\source\repos\SImpleTree\SImpleTree\obj\Debug\SImpleTree.pdb
