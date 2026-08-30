@@ -42,7 +42,11 @@ namespace AlgorithmsDataStructures2
                 Root = null;
                 return;
             }
-            NodeToDelete.Parent.Children.Remove(NodeToDelete);
+            if (NodeToDelete.Parent != null && NodeToDelete.Parent.Children != null)
+            {
+                NodeToDelete.Parent.Children.Remove(NodeToDelete);
+                if (NodeToDelete.Parent.Children.Count == 0) NodeToDelete.Parent.Children = null;
+            }       
             NodeToDelete.Parent = null;
         }
 
