@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\bin\Debug\Binary Simple Tree.exe.config
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\bin\Debug\Binary Simple Tree.exe
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\bin\Debug\Binary Simple Tree.pdb
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\obj\Debug\Binary Simple Tree.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\obj\Debug\Binary Simple Tree.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\obj\Debug\Binary Simple Tree.exe
+C:\Users\fox_f\source\repos\Binary Simple Tree\Binary Simple Tree\obj\Debug\Binary Simple Tree.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F537D08-C6F7-4B13-9371-945537CE1153}</ProjectGuid>
+    <ProjectGuid>{0FADA570-019A-430F-977C-AE77899A4B3F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SImpleTree</RootNamespace>
-    <AssemblyName>SImpleTree</AssemblyName>
+    <RootNamespace>Binary_Simple_Tree</RootNamespace>
+    <AssemblyName>Binary Simple Tree</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="task1_2.cs" />
+    <Compile Include="task2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="task1.cs" />
-    <Compile Include="task1_3.cs" />
+    <Compile Include="task2_2.cs" />
+    <Compile Include="task2_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
