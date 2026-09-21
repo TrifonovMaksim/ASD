@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\bin\Debug\WaysToTraverseATree.exe.config
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\bin\Debug\WaysToTraverseATree.exe
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\bin\Debug\WaysToTraverseATree.pdb
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\obj\Debug\WaysToTraverseATree.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\obj\Debug\WaysToTraverseATree.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\obj\Debug\WaysToTraverseATree.exe
+C:\Users\fox_f\source\repos\WaysToTraverseATree\WaysToTraverseATree\obj\Debug\WaysToTraverseATree.pdb

@@ -1,16 +1,18 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using System.Xml.Linq;
 
 namespace AlgorithmsDataStructures2
 {
     public class BSTNode<T>
     {
-        public int NodeKey; 
-        public T NodeValue; 
-        public BSTNode<T> Parent; 
-        public BSTNode<T> LeftChild; 
-        public BSTNode<T> RightChild; 
+        public int NodeKey;
+        public T NodeValue;
+        public BSTNode<T> Parent;
+        public BSTNode<T> LeftChild;
+        public BSTNode<T> RightChild;
 
         public BSTNode(int key, T val, BSTNode<T> parent)
         {
@@ -38,7 +40,7 @@ namespace AlgorithmsDataStructures2
 
     public class BST<T>
     {
-        public BSTNode<T> Root; 
+        public BSTNode<T> Root;
         public int counter = 0;
 
         public BST(BSTNode<T> node)
@@ -174,5 +176,55 @@ namespace AlgorithmsDataStructures2
         {
             return counter;
         }
+
+        public List<BSTNode<T>> WideAllNodes()
+        {
+            if (Root == null) return null;
+            List<BSTNode<T>> ResultNodes = new List<BSTNode<T>>();
+            Queue<BSTNode<T>> NodesQueue = new Queue<BSTNode<T>>();
+            NodesQueue.Enqueue(Root);
+            while (NodesQueue.Count > 0)
+            {
+                BSTNode<T> Node = NodesQueue.Dequeue();
+                ResultNodes.Add(Node);
+                if (Node.LeftChild != null) NodesQueue.Enqueue(Node.LeftChild);
+                if (Node.RightChild != null) NodesQueue.Enqueue(Node.RightChild);
+            }
+            return ResultNodes;
+        }
+
+        public List<BSTNode<T>> DeepAllNodes(int Order)
+        {
+            if (Root == null) return null;
+            List<BSTNode<T>> ResultNodes = new List<BSTNode<T>>();
+            DoDeepAllNodes(ResultNodes, Root, Order);
+            return ResultNodes;
+
+        }
+
+        void DoDeepAllNodes(List<BSTNode<T>> Nodes, BSTNode<T> Node, int Order)
+        {
+            if (Node == null) return;
+            if (Order == 0)
+            {
+                DoDeepAllNodes(Nodes, Node.LeftChild, Order);
+                Nodes.Add(Node);
+                DoDeepAllNodes(Nodes, Node.RightChild, Order);
+            }
+            else if (Order == 1)
+            {
+                DoDeepAllNodes(Nodes, Node.LeftChild, Order);
+                DoDeepAllNodes(Nodes, Node.RightChild, Order);
+                Nodes.Add(Node);
+            }
+            else if (Order == 2)
+            {
+                Nodes.Add(Node);
+                DoDeepAllNodes(Nodes, Node.LeftChild, Order);
+                DoDeepAllNodes(Nodes, Node.RightChild, Order);  
+            }
+
+        }
+    
     }
 }

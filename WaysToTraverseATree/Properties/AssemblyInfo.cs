@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Binary Simple Tree")]
+[assembly: AssemblyTitle("WaysToTraverseATree")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Binary Simple Tree")]
+[assembly: AssemblyProduct("WaysToTraverseATree")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("0fada570-019a-430f-977c-ae77899a4b3f")]
+[assembly: Guid("64c575aa-a34b-4613-a078-60159c33890b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
