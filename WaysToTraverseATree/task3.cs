@@ -204,7 +204,7 @@ namespace AlgorithmsDataStructures2
             return ResultNodes;
         }
 
-        private void DoDeepAllNodes(List<BSTNode> Nodes, BSTNode<T> Node, int Order)
+        void DoDeepAllNodes(List<BSTNode> Nodes, BSTNode<T> Node, int Order)
         {
             if (Node == null) return;
             if (Order == 0)
