@@ -6,9 +6,12 @@ using System.Xml.Linq;
 
 namespace AlgorithmsDataStructures2
 {
-    public class BSTNode<T>
+    public class BSTNode
     {
         public int NodeKey;
+    }
+    public class BSTNode<T> : BSTNode
+    {
         public T NodeValue;
         public BSTNode<T> Parent;
         public BSTNode<T> LeftChild;
@@ -177,10 +180,10 @@ namespace AlgorithmsDataStructures2
             return counter;
         }
 
-        public List<BSTNode<T>> WideAllNodes()
+        public List<BSTNode> WideAllNodes()
         {
+            List<BSTNode> ResultNodes = new List<BSTNode>();
             if (Root == null) return null;
-            List<BSTNode<T>> ResultNodes = new List<BSTNode<T>>();
             Queue<BSTNode<T>> NodesQueue = new Queue<BSTNode<T>>();
             NodesQueue.Enqueue(Root);
             while (NodesQueue.Count > 0)
@@ -193,16 +196,15 @@ namespace AlgorithmsDataStructures2
             return ResultNodes;
         }
 
-        public List<BSTNode<T>> DeepAllNodes(int Order)
+        public List<BSTNode> DeepAllNodes(int Order)
         {
+            List<BSTNode> ResultNodes = new List<BSTNode>();
             if (Root == null) return null;
-            List<BSTNode<T>> ResultNodes = new List<BSTNode<T>>();
             DoDeepAllNodes(ResultNodes, Root, Order);
             return ResultNodes;
-
         }
 
-        void DoDeepAllNodes(List<BSTNode<T>> Nodes, BSTNode<T> Node, int Order)
+        private void DoDeepAllNodes(List<BSTNode> Nodes, BSTNode<T> Node, int Order)
         {
             if (Node == null) return;
             if (Order == 0)
@@ -221,10 +223,9 @@ namespace AlgorithmsDataStructures2
             {
                 Nodes.Add(Node);
                 DoDeepAllNodes(Nodes, Node.LeftChild, Order);
-                DoDeepAllNodes(Nodes, Node.RightChild, Order);  
+                DoDeepAllNodes(Nodes, Node.RightChild, Order);
             }
-
         }
-    
+
     }
 }
