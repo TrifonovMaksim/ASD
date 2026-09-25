@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\bin\Debug\Binary Search Trees (2).exe.config
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\bin\Debug\Binary Search Trees (2).exe
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\bin\Debug\Binary Search Trees (2).pdb
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\obj\Debug\Binary Search Trees (2).csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\obj\Debug\Binary Search Trees (2).csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\obj\Debug\Binary Search Trees (2).exe
+C:\Users\fox_f\source\repos\Binary Search Trees (2)\Binary Search Trees (2)\obj\Debug\Binary Search Trees (2).pdb
