@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\bin\Debug\Balanced-BST2.exe.config
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\bin\Debug\Balanced-BST2.exe
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\bin\Debug\Balanced-BST2.pdb
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\obj\Debug\Balanced-BST2.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\obj\Debug\Balanced-BST2.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\obj\Debug\Balanced-BST2.exe
+C:\Users\fox_f\source\repos\Balanced-BST2\Balanced-BST2\obj\Debug\Balanced-BST2.pdb

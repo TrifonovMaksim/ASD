@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Balanced BST")]
+[assembly: AssemblyTitle("Balanced-BST2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Balanced BST")]
+[assembly: AssemblyProduct("Balanced-BST2")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("d2258017-034b-43eb-a293-cb0cdb59f8f0")]
+[assembly: Guid("eedd66eb-ebb1-4d40-8738-8b4b47efe43b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

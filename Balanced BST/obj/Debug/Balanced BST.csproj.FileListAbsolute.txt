@@ -1,7 +1,0 @@
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\bin\Debug\Balanced BST.exe.config
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\bin\Debug\Balanced BST.exe
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\bin\Debug\Balanced BST.pdb
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\obj\Debug\Balanced BST.csproj.AssemblyReference.cache
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\obj\Debug\Balanced BST.csproj.CoreCompileInputs.cache
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\obj\Debug\Balanced BST.exe
-C:\Users\fox_f\source\repos\Balanced BST\Balanced BST\obj\Debug\Balanced BST.pdb
