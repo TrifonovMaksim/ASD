@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40514FEB-27E3-4781-8063-DCC427D2F2ED}</ProjectGuid>
+    <ProjectGuid>{6BE3E02B-1700-49D0-8771-506FEB35D082}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Heap</RootNamespace>
-    <AssemblyName>Heap</AssemblyName>
+    <RootNamespace>Graph</RootNamespace>
+    <AssemblyName>Graph</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="task7.cs" />
+    <Compile Include="task8.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="task7_2.cs" />
-    <Compile Include="task7_3.cs" />
+    <Compile Include="task8_2.cs" />
+    <Compile Include="task8_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
