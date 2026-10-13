@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6BE3E02B-1700-49D0-8771-506FEB35D082}</ProjectGuid>
+    <ProjectGuid>{AA76A9AD-1B16-4AED-8899-0FE15BE275DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Graph</RootNamespace>
-    <AssemblyName>Graph</AssemblyName>
+    <RootNamespace>EvenTrees</RootNamespace>
+    <AssemblyName>EvenTrees</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="task8.cs" />
+    <Compile Include="task9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="task8_2.cs" />
-    <Compile Include="task8_3.cs" />
+    <Compile Include="task9_2.cs" />
+    <Compile Include="task9_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

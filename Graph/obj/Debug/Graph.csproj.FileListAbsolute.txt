@@ -1,7 +1,0 @@
-C:\Users\fox_f\source\repos\Graph\Graph\bin\Debug\Graph.exe.config
-C:\Users\fox_f\source\repos\Graph\Graph\bin\Debug\Graph.exe
-C:\Users\fox_f\source\repos\Graph\Graph\bin\Debug\Graph.pdb
-C:\Users\fox_f\source\repos\Graph\Graph\obj\Debug\Graph.csproj.AssemblyReference.cache
-C:\Users\fox_f\source\repos\Graph\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
-C:\Users\fox_f\source\repos\Graph\Graph\obj\Debug\Graph.exe
-C:\Users\fox_f\source\repos\Graph\Graph\obj\Debug\Graph.pdb
