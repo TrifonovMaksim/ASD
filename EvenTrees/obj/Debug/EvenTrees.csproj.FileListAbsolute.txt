@@ -1,7 +1,0 @@
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\bin\Debug\EvenTrees.exe.config
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\bin\Debug\EvenTrees.exe
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\bin\Debug\EvenTrees.pdb
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\obj\Debug\EvenTrees.csproj.AssemblyReference.cache
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\obj\Debug\EvenTrees.csproj.CoreCompileInputs.cache
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\obj\Debug\EvenTrees.exe
-C:\Users\fox_f\source\repos\EvenTrees\EvenTrees\obj\Debug\EvenTrees.pdb

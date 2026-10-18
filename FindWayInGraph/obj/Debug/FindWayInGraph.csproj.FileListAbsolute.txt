@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\bin\Debug\FindWayInGraph.exe.config
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\bin\Debug\FindWayInGraph.exe
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\bin\Debug\FindWayInGraph.pdb
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\obj\Debug\FindWayInGraph.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\obj\Debug\FindWayInGraph.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\obj\Debug\FindWayInGraph.exe
+C:\Users\fox_f\source\repos\FindWayInGraph\FindWayInGraph\obj\Debug\FindWayInGraph.pdb

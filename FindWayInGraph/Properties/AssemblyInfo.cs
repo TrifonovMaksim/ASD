@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("EvenTrees")]
+[assembly: AssemblyTitle("FindWayInGraph")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EvenTrees")]
+[assembly: AssemblyProduct("FindWayInGraph")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("aa76a9ad-1b16-4aed-8899-0fe15be275dd")]
+[assembly: Guid("21e88618-4f14-4319-8a04-8b2eccae1984")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
