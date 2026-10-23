@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("FindWayInGraph")]
+[assembly: AssemblyTitle("GraphBFS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FindWayInGraph")]
+[assembly: AssemblyProduct("GraphBFS")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("21e88618-4f14-4319-8a04-8b2eccae1984")]
+[assembly: Guid("b8075f3d-cb57-409d-8c41-cef1d51db037")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

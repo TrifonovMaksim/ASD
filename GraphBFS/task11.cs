@@ -29,13 +29,59 @@ namespace AlgorithmsDataStructures2
             vertex = new Vertex<T>[size];
         }
 
+        public List<Vertex<T>> BreadthFirstSearch(int VFrom, int VTo)
+        {
+            List<Vertex<T>> ResultVertexList = new List<Vertex<T>>();
+            if (VFrom >= max_vertex || VFrom < 0 || VTo >= max_vertex || VTo < 0 || VTo == VFrom || vertex[VFrom] == null || vertex[VTo] == null) return ResultVertexList;
+            for (int i = 0; i < max_vertex; i++)
+            {
+                if (vertex[i] != null) vertex[i].Hit = false;
+            }
+            int[] Parents = new int[max_vertex];
+            for (int j = 0; j < max_vertex; j++) Parents[j] = -1;
+            Queue<int> VertexQueue = new Queue<int>();
+            VertexQueue.Enqueue(VFrom);
+            vertex[VFrom].Hit = true;
+            while (VertexQueue.Count != 0)
+            {
+                int CurVertexIndex = VertexQueue.Dequeue();
+                if (CurVertexIndex == VTo)
+                {
+                    MakeWay(ResultVertexList, Parents, VFrom, VTo);
+                    return ResultVertexList;
+                }
+                for (int i = 0; i < max_vertex; i++)
+                {
+                    if (m_adjacency[CurVertexIndex, i] == 1 && vertex[i].Hit == false)
+                    {
+                        VertexQueue.Enqueue(i);
+                        vertex[i].Hit = true;
+                        Parents[i] = CurVertexIndex;
+                    }
+                }
+            }
+            return ResultVertexList;
+        }
+
+        private void MakeWay(List<Vertex<T>> ResultVertexList, int[] Parents, int VFrom, int VTo)
+        {
+            int WayVertexIndex = VTo;
+            while (WayVertexIndex != VFrom)
+            {
+                ResultVertexList.Add(vertex[WayVertexIndex]);
+                WayVertexIndex = Parents[WayVertexIndex];
+            }
+            ResultVertexList.Add(vertex[VFrom]);
+            ResultVertexList.Reverse();
+        }
+
         public List<Vertex<T>> DepthFirstSearch(int VFrom, int VTo)
         {
             List<Vertex<T>> ResultVertexList = new List<Vertex<T>>();
-            if (VFrom >= max_vertex || VFrom < 0 || VTo >= max_vertex || VTo < 0 || VTo == VFrom) return ResultVertexList;
+            if (VFrom >= max_vertex || VFrom < 0 || VTo >= max_vertex || VTo < 0 || VTo == VFrom || VertexCount == 0 || vertex[VFrom] == null || vertex[VTo] == null) return ResultVertexList;
             Stack<int> VertexStack = new Stack<int>();
             VertexStack.Clear();
-            for(int i = 0; i < max_vertex; i++)
+            for (int i = 0; i < max_vertex; i++)
             {
                 if (vertex[i] != null) vertex[i].Hit = false;
             }
@@ -59,14 +105,14 @@ namespace AlgorithmsDataStructures2
                             VertexStack.Push(To);
                             int TmpCount = VertexStack.Count;
                             for (int j = 0; j < TmpCount; j++)
-                            {   
+                            {
                                 ResultVertexList.Add(vertex[VertexStack.Pop()]);
                             }
                             return true;
                         }
                         if (DoDepthFirstSearch(i, To)) return true;
                     }
-                }   
+                }
                 VertexStack.Pop();
                 if (VertexStack.Count == 0) return false;
                 return false;

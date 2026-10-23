@@ -1,0 +1,7 @@
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\bin\Debug\GraphBFS.exe.config
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\bin\Debug\GraphBFS.exe
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\bin\Debug\GraphBFS.pdb
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\obj\Debug\GraphBFS.csproj.AssemblyReference.cache
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\obj\Debug\GraphBFS.csproj.CoreCompileInputs.cache
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\obj\Debug\GraphBFS.exe
+C:\Users\fox_f\source\repos\GraphBFS\GraphBFS\obj\Debug\GraphBFS.pdb
