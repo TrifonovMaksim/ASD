@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("GraphBFS")]
+[assembly: AssemblyTitle("GraphWithTriangle")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GraphBFS")]
+[assembly: AssemblyProduct("GraphWithTriangle")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("b8075f3d-cb57-409d-8c41-cef1d51db037")]
+[assembly: Guid("cedfeb88-8075-415b-a840-bc347505926a")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

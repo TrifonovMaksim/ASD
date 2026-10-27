@@ -29,6 +29,30 @@ namespace AlgorithmsDataStructures2
             vertex = new Vertex<T>[size];
         }
 
+
+        public virtual List<Vertex<T>> WeakVertices()
+        {
+            List<Vertex<T>> ResultVertexList = new List<Vertex<T>>();
+            if (VertexCount < 1) return ResultVertexList;
+            for(int i = 0; i < max_vertex; i++)
+            {
+                if (vertex[i] != null && !IsVertexInTriangle(i)) ResultVertexList.Add(vertex[i]);
+            }
+            return ResultVertexList;
+        }
+
+        public bool IsVertexInTriangle(int index)
+        {
+            for (int i = 0; i < max_vertex; i++)
+            {
+                if (m_adjacency[index, i] != 1) continue;
+                for (int j = i + 1; j < max_vertex; j++)
+                {
+                    if (m_adjacency[index, j] == 1 && m_adjacency[i, j] == 1) return true;
+                }
+            }
+            return false;
+        }
         public List<Vertex<T>> BreadthFirstSearch(int VFrom, int VTo)
         {
             List<Vertex<T>> ResultVertexList = new List<Vertex<T>>();
