@@ -1,7 +1,0 @@
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\obj\Debug\GraphWithTriangle.csproj.AssemblyReference.cache
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\obj\Debug\GraphWithTriangle.csproj.CoreCompileInputs.cache
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\bin\Debug\GraphWithTriangle.exe.config
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\bin\Debug\GraphWithTriangle.exe
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\bin\Debug\GraphWithTriangle.pdb
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\obj\Debug\GraphWithTriangle.exe
-C:\Users\fox_f\source\repos\GraphWithTriangle\GraphWithTriangle\obj\Debug\GraphWithTriangle.pdb
